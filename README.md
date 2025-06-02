@@ -49,8 +49,11 @@ MongoDB (local or use MongoDB Atlas) – Install MongoDB
 npm or yarn (Comes with Node.js)
 
 
-For Backend (Node + Express)
+
+For Backend (Node + Express):
+
 cd backend
+
 npm run start
 
 ## 🔐 JWT Authentication Middleware
