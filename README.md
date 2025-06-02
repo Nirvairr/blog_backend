@@ -55,3 +55,21 @@ module.exports = function (req, res, next) {
     res.status(400).json({ message: "Invalid token" });
   }
 };
+
+
+🛠️ Setup Instructions for Local Development
+✅ Prerequisites:
+Make sure the following are installed:
+
+Node.js (v14 or higher) – Download Node.js
+
+MongoDB (local or use MongoDB Atlas) – Install MongoDB
+
+Git – Download Git
+
+npm or yarn (Comes with Node.js)
+
+
+For Backend (Node + Express)
+cd backend
+npm run start
