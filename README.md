@@ -65,8 +65,6 @@ Node.js (v14 or higher) – Download Node.js
 
 MongoDB (local or use MongoDB Atlas) – Install MongoDB
 
-Git – Download Git
-
 npm or yarn (Comes with Node.js)
 
 
