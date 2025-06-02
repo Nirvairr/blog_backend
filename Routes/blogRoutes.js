@@ -19,7 +19,7 @@ blogrouter.post(
   editBlog
 );
 blogrouter.get("/fetchblogs", fetchBlogs);
-blogrouter.post("/deleteblog/:id", deleteBlog);
-blogrouter.get("/getblog/:id", getblogbyid);
+blogrouter.post("/deleteblog/:id", authMiddleware,deleteBlog);
+blogrouter.get("/getblog/:id", authMiddleware,getblogbyid);
 
 export default blogrouter;
