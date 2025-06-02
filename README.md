@@ -38,6 +38,21 @@ blog_backend/
 
 ---
 
+## Setup Instructions for Local Development
+✅ Prerequisites:
+Make sure the following are installed:
+
+Node.js (v14 or higher) – Download Node.js
+
+MongoDB (local or use MongoDB Atlas) – Install MongoDB
+
+npm or yarn (Comes with Node.js)
+
+
+For Backend (Node + Express)
+cd backend
+npm run start
+
 ## 🔐 JWT Authentication Middleware
 
 ```js
@@ -57,17 +72,4 @@ module.exports = function (req, res, next) {
 };
 
 
-🛠️ Setup Instructions for Local Development
-✅ Prerequisites:
-Make sure the following are installed:
 
-Node.js (v14 or higher) – Download Node.js
-
-MongoDB (local or use MongoDB Atlas) – Install MongoDB
-
-npm or yarn (Comes with Node.js)
-
-
-For Backend (Node + Express)
-cd backend
-npm run start
